@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Radio</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <h1>Radio</h1>
+
+    <input id="input_brand" type="text" placeholder="Marca" />
+    <input id="input_voltage" type="number" placeholder="Voltagem" />
+    <input id="input_tax" type="number" placeholder="Porcentagem de juros" />
+    <input id="input_weight" type="number" placeholder="Peso" />
+
+    <input id="button_save_radio" type="button" value="Salvar" />
+    <input id="button_list_radio" type="button" value="Listar" />
+
+    <table>
+      <thead>
+        <th>Marca</th>
+        <th>Voltagem</th>
+        <th>Porcentagem de juros</th>
+        <th>Peso</th>
+      </thead>
+      <tbody id="table_list_radio"></tbody>
+    </table>
+
+    <script type="module" src="../../dist/radioView.js"></script>
+  </body>
+</html>
